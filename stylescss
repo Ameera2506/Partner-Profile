@@ -1,0 +1,26 @@
+/* styles.css */
+
+.btn {
+    color: white;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-danger, 
+.btn-secondary,
+.btn-success {
+    background-color: blue;
+}
+
+.form-control {
+    background-color: #f8f9fa; /* Light grey color */
+    border-color: #dee2e6; /* Border color */
+}
+
+textarea.form-control {
+    background-color: #f8f9fa; /* Light grey color */
+    border-color: #dee2e6; /* Border color */
+    min-height: 100px; /* Set minimum height for textarea */
+}
