@@ -6,40 +6,35 @@
   <title>Partner Form</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- External CSS file -->
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
   <div class="container mt-5">
     <form>
       <div class="form-group required">
         <p>Add partner profile</p>
-        <p>partners are organizations with whom you want to share project information.</p>
-        <label for="partnerName"><b>partner name</b><span class="text-danger">*</span></label>
-        <input type="text" class="form-control" id="partnerName" placeholder="partner company name" required>
-        <label for="description"><b>description</b><span class="text-danger">*</span></label>
-        <textarea class="form-control" id="description" rows="4"  required></textarea>
-        <small class="form-text text-muted small">Provide max 250 characters.</small>
-        <label for="partnerPrimaryContact"><b>partner primary contact</b><span class="text-danger">*</span></label>
-        <input type="text" class="form-control" id="partnerPrimaryContact" placeholder="primary contact" required>
-        <label for="emailAddress"><b>email address</b><span class="text-danger">*</span></label>
+        <p>Partners are organizations with whom you want to share project information.</p>
+        <label for="partnerName"><b>Partner name</b><span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="partnerName" placeholder="Partner company name" required>
+        <label for="description"><b>Description</b><span class="text-danger">*</span></label>
+        <textarea class="form-control" id="description" rows="4" required></textarea>
+        <small class="form-text text-muted">Provide max 250 characters.</small>
+        <label for="partnerPrimaryContact"><b>Partner primary contact</b><span class="text-danger">*</span></label>
+        <input type="text" class="form-control" id="partnerPrimaryContact" placeholder="Primary contact" required>
+        <label for="emailAddress"><b>Email address</b><span class="text-danger">*</span></label>
         <input type="email" class="form-control" id="email-address" placeholder="name@example.com" required>
         <small class="form-text text-muted">We'll never share your email with anyone else.</small>
         <label for="phoneNumber"><b>Phone number</b><span class="text-danger">*</span></label>
         <input type="tel" class="form-control" id="phone-number" placeholder="91-80-9878888888" pattern="[0-9]{2}-[0-9]{2}-[0-9]{10}" required>
       </div>
       <div class="button-group mt-3">
-        <button type="button" class="btn btn-primary">apply</button>
-        <button type="button" class="btn btn-success">save</button>
-        <button type="button" class="btn btn-danger">cancel</button>
-        <button type="button" class="btn btn-secondary">reset</button>
+        <button type="button" class="btn btn-primary">Apply</button>
+        <button type="button" class="btn btn-success">Save</button>
+        <button type="button" class="btn btn-danger">Cancel</button>
+        <button type="button" class="btn btn-secondary">Reset</button>
       </div>
     </form>
   </div>
-  <!-- Custom CSS for button styling -->
-  <style>
-    .btn {
-      background-color: blue;
-      color: white;
-    }
-  </style>
 </body>
 </html>
